@@ -25,7 +25,7 @@ int main()
 
 	// Open the file for binary output
 	fstream inventory;
-	inventory.open("Inventory.dat", ios::in | ios::out | ios::binary);
+	inventory.open("Inventory.dat", ios::out | ios::binary);
 
 	// Write the blank record
 	for (int i = 0; i < NUM_RECORDS; i++)
